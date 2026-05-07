@@ -142,7 +142,7 @@ This project is licensed under the MIT License.
 # Contact
 
 Ayush Kumar Srivastava
-GitHub: https://github.com/ayushh15
+GitHub: https://github.com/mrayush-tech
 
 ---
 
