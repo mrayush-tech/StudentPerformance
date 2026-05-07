@@ -1,115 +1,152 @@
-# Student Performance Prediction
+# Student Performance Prediction System
 
 ## About The Project
 
-The primary objective of this project is to develop a predictive model that can forecast the performance of students in their academic projects. The model aims to help educators and institutions identify students who may need additional support or intervention early in the project development process, ultimately enhancing overall student success.
+The main objective of this project is to develop a Machine Learning based web application that predicts student academic performance. This system helps teachers and educational institutions analyze student data and identify students who may require additional academic support.
 
-## Built With
+The project uses different Machine Learning algorithms and data visualization techniques to provide accurate predictions and better insights into student performance.
 
- - Pandas
- - Numpy
- - Seaborn
- - Matplotlib
- - Scikit-learn
- - Catboost
- - Flask
- - Dill
+---
 
-## Getting Started
+# Built With
 
-This will help you understand how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+* Python
+* Pandas
+* NumPy
+* Seaborn
+* Matplotlib
+* Scikit-learn
+* CatBoost
+* Flask
+* Docker
 
-## Installation Steps
+---
 
-### Option 1: Installation from GitHub
+# Getting Started
 
-Follow these steps to install and set up the project directly from the GitHub repository:
+Follow the steps below to run the project on your local machine.
 
-1. **Clone the Repository**
-   - Open your terminal or command prompt.
-   - Navigate to the directory where you want to install the project.
-   - Run the following command to clone the GitHub repository:
-     ```
-     [git clone https://github.com/mrayush-tech/StudentPerformance)
-     ```
+---
 
-2. **Create a Virtual Environment** (Optional but recommended)
-   - It's a good practice to create a virtual environment to manage project dependencies. Run the following command:
-     ```
-     conda create -p <Environment_Name> python==<python version> -y
-     ```
+# Installation Steps
 
-3. **Activate the Virtual Environment** (Optional)
-   - Activate the virtual environment based on your operating system:
-       ```
-       conda activate <Environment_Name>/
-       ```
+## Option 1: Installation from GitHub
 
-4. **Install Dependencies**
-   - Navigate to the project directory:
-     ```
-     cd [project_directory]
-     ```
-   - Run the following command to install project dependencies:
-     ```
-     pip install -r requirements.txt
-     ```
+### Clone the Repository
 
-5. **Run the Project**
-   - Start the project by running the appropriate command.
-     ```
-     python app.py
-     ```
+Open terminal or Command Prompt and run:
 
-6. **Access the Project**
-   - Open a web browser or the appropriate client to access the project.
-  
-<br><br>
-### Option 2: Installation from DockerHub
+```bash
+git clone https://github.com/ayushh15/StudentPerformancePrediction.git
+```
 
-If you prefer to use Docker, you can install and run the project using a Docker container from DockerHub:
+---
 
-1. **Pull the Docker Image**
-   - Open your terminal or command prompt.
-   - Run the following command to pull the Docker image from DockerHub:
-     ```
-     docker pull kalyan45/student-app
-     ```
+### Create Virtual Environment
 
-2. **Run the Docker Container**
-   - Start the Docker container by running the following command, and mapping any necessary ports:
-     ```
-     docker run -p 5000:5000 kalyan45/student-app
-     ```
+```bash
+conda create -p venv python==3.10 -y
+```
 
-3. **Access the Project**
-   - Open a web browser or the appropriate client to access the project.
+---
 
+### Activate Environment
 
-## Contributing
+```bash
+conda activate venv/
+```
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+---
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+### Install Dependencies
 
-1. Fork the Project
-2. Create your Feature Branch
-3. Commit your Changes
-4. Push to the Branch
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### Run the Application
+
+```bash
+python app.py
+```
+
+---
+
+### Open in Browser
+
+```text
+http://127.0.0.1:5000
+```
+
+---
+
+# Option 2: Installation using Docker
+
+## Pull Docker Image
+
+```bash
+docker pull ayushh15/student-app
+```
+
+---
+
+## Run Docker Container
+
+```bash
+docker run -p 5000:5000 ayushh15/student-app
+```
+
+---
+
+## Access Application
+
+Open browser and visit:
+
+```text
+http://localhost:5000
+```
+
+---
+
+# Features
+
+* Student performance prediction
+* Machine Learning integration
+* Interactive web interface
+* Data visualization
+* Docker support
+* Easy deployment
+
+---
+
+# Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a new feature branch
+3. Commit your changes
+4. Push the branch
 5. Open a Pull Request
 
-## License
+---
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+# License
 
+This project is licensed under the MIT License.
 
-## Contact
+---
 
-Hema Kalyan Murapaka - [@kalyanmurapaka274@gmail.com](kalyanmurapaka274@gmail.com)
+# Contact
 
+Ayush Kumar Srivastava
+GitHub: https://github.com/ayushh15
 
-## Acknowledgements
+---
 
-We'd like to extend our gratitude to all individuals and organizations who have played a role in the development and success of this project. Your support, whether through contributions, inspiration, or encouragement, has been invaluable. Thank you for being a part of our journey.
+# Acknowledgements
+
+Special thanks to all contributors, developers, and open-source communities for their valuable support and inspiration.
+
